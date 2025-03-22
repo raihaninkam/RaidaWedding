@@ -1,0 +1,502 @@
+:root {
+  --ungu: #6c7481;
+  --bg: #0a0a0a;
+  --pink: #f88379;
+
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+/* html, body {
+  overflow-x: hidden;
+} */
+
+body {
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  min-height: 5400px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/amanda-mocci-Zyp3t67rrP4-unsplash.jpg);
+  z-index: -2;
+  background-position: center;
+  background-size: cover;
+  filter: contrast(50%);
+}
+
+.hero {
+  min-height: 100vh;
+  position: relative;
+  /* background-color: #0a0a0a; */
+}
+
+.mynavbar {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(2px);
+}
+
+.mynavbar .offcanvas {
+  height: 100vh;
+}
+
+.hero h1,
+.hero h4,
+hero p {
+  text-shadow: var(--shadow);
+}
+
+.hero h4 {
+  font-size: 1rem;
+  text-wrap: wrap;
+  /* margin-top: -5rem; */
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-family: parisienne;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.hero a {
+  background-color: var(--pink);
+  color: #ffffff;
+  margin-top: 10rem;
+  box-shadow: var(--shadow);
+}
+
+.hero a:hover {
+  background-color: #ffffff;
+  color: var(--pink);
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+  font-family: "parisienne", Work Sans;
+  font-size: 2rem;
+}
+
+.mynavbar .nav-link {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.navbar-nav a:hover {
+  background-color: var(--pink);
+  border-radius: 10%;
+}
+
+.home {
+  background-image: url("img/info.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+/* background-size: cover; */
+/* background-position: center;
+  /* min-height: 100vh; */
+/* margin-top: -4.5rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem; */
+*/
+
+
+/* .home h2 {
+  color: var(--pink);
+  font-family: "parisienne";
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: -6rem;
+  margin-bottom: 1rem; */
+
+
+.container h2 {
+  color: var(--pink);
+  font-family: "parisienne";
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.home h3 {
+  /* color: #555; */
+  font-size: 1.4rem;
+  /* margin-bottom: 0.8rem; */
+}
+
+/* .home p {
+  font-size: 1.1rem;
+  color: #666;
+} */
+
+.home .couple h3 {
+  font-family: "parisienne";
+  font-size: 2.4rem;
+  color: var();
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  /* background-color: #f9f9f9; */
+}
+.hero {
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+h1 {
+  font-family: "Parisienne", cursive;
+  font-size: 4rem;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.navbar-brand,
+.offcanvas-title {
+  font-family: "Parisienne", cursive;
+  font-size: 2rem;
+  color: #d9534f;
+}
+.navbar-nav .nav-link {
+  margin: 0 10px;
+}
+#home {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#home {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url("img/info.png");
+  background-size: cover;
+  background-repeat: repeat;
+  margin-top: -4.5rem;
+  padding-top: 6rem;
+}
+
+#home .container h2 {
+  margin-top: 4rem;
+  font-size: 4rem;
+}
+
+#home .container p span {
+  font-weight: bold;
+}
+.row-couple {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+.row-couple img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #d9534f;
+}
+h3 {
+  font-family: "Parisienne", cursive;
+  color: #d9534f;
+}
+
+.info {
+  text-align: center;
+  margin-top: 16rem;
+  padding-top: 50px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url("img/info.png");
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.info h1 {
+  margin-top: 5rem;
+}
+
+.info h2 {
+  margin-top: 10rem;
+  font-weight: 300;
+}
+
+.info h1 {
+  color: var(--pink);
+}
+
+.alamat {
+  background-color: #777;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.alamat h2 {
+  color: var(--pink);
+  font-family: "parisienne";
+  font-size: 4rem;
+  padding-top: 5rem;
+}
+
+.alamat p {
+  padding-top: 1rem;
+}
+
+.alamat a {
+  margin-top: -7rem;
+  font-size: 1.6rem;
+  background-color: var(--pink);
+  color: #ffffff;
+  box-shadow: var(--shadow);
+}
+
+.card-footer i {
+  font-size: 1.1rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.galeri {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  background-color: #f5f5f5;
+}
+
+.galeri h2,
+.rsvp h2 {
+  font-family: "parisienne";
+  color: var(--pink);
+  font-size: 4rem;
+}
+
+.galeri span,
+.gift span {
+  text-transform: uppercase;
+  color: #666;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.galeri p,
+.gift p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.rsvp {
+  background-image: url(img/info.png);
+  background-size: cover;
+  padding-top: 13rem;
+
+  min-height: 100vh;
+}
+
+.form-control,
+.form-select {
+  border-width: 2px !important; /* Mempertebal border */
+  border-color: black !important; /* Warna hitam */
+}
+
+.gift {
+  padding-top: 9rem;
+  background-color: #f4f4f4;
+  min-height: 120vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: -4rem;
+}
+
+.gift h2 {
+  font-family: "parisienne";
+  color: var(--pink);
+  font-size: 4rem;
+}
+
+
+.gift .container {
+  display: flex;
+  justify-content: center;
+}
+
+.bank-card-container {
+  display: flex;
+  gap: 20px; /* Jarak antara kartu */
+  justify-content: center;
+  flex-wrap: wrap; /* Jika layar kecil, kartu akan turun ke bawah */
+}
+
+.bank-card {
+  width: 300px;
+  height: 180px;
+  background: linear-gradient(135deg, #007bff, #00c3ff);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+.bank-name {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+.chip {
+  width: 50px;
+  height: 35px;
+  background-color: gold;
+  border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.card-number {
+  margin-top: 50px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.card-holder {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+
+.qr-image {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  justify-content: center; /* Memusatkan secara horizontal */
+  align-items: center; /* Memusatkan secara vertikal jika ada tinggi yang diberikan */
+  text-align: center; /* Memastikan teks juga di tengah */
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center; /* Memusatkan secara horizontal */
+  align-items: center; /* Memusatkan secara vertikal jika ada tinggi yang diberikan */
+  text-align: center; /* Memastikan teks juga di tengah */
+  width: 100%; /* Pastikan elemen mengambil seluruh lebar yang tersedia */
+  margin-top: 20px; /* Tambahkan margin jika perlu */
+}
+
+
+footer {
+  padding: 3rem;
+  background-color: #626f78;
+  margin-top: 5rem;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+
+}
+
+footer a:hover {
+  color: #f4f4f4;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 2rem;
+}
+
+footer li a {
+  margin: 1rem;
+  display: inline;
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 3rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  opacity: 50%;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+
+}
+
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+/* mobilephone */
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+}
